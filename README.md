@@ -1,6 +1,7 @@
 # Boston House Pricing Prediction
 
-This project focuses on predicting Boston housing prices using statistical analysis and machine learning techniques in Python. 
+This project focuses on predicting Boston housing prices using statistical analysis and machine learning techniques in Python. Here I acted as a Data Scientist with a housing agency in Boston MA, and had been given access to a previous dataset on housing prices derived from the U.S. Census Service to present insights to higher management. Using the appropriate graphs and charts, I generated basic statistics and visualizations that I thought will be useful for the upper management to give them important insights.
+
 ## Objective
 The primary objective of this project is to develop a predictive model that can estimate the median value of owner-occupied homes in the Boston metropolitan area based on various features.
 
@@ -8,7 +9,7 @@ The primary objective of this project is to develop a predictive model that can 
 
 The project utilizes the *Boston Housing Dataset*, which is a classic dataset in the field of machine learning and statistics. It contains information about housing values in suburbs of Boston, along with various demographic and socio-economic factors.
 
-The dataset includes the following features:
+The following describes the dataset variables:
 
 * *CRIM:* Per capita crime rate by town
 * *ZN:* Proportion of residential land zoned for lots over 25,000 sq.ft.
@@ -27,35 +28,10 @@ The dataset includes the following features:
 
 The dataset used is uploaded in the repository titled 'boston.csv'.
 
-## Project Structure
-
-The project typically follows these steps:
-
-1.  *Data Exploration and Understanding:*
-    * Loading the dataset using libraries like pandas.
-    * Performing exploratory data analysis (EDA) to understand the characteristics of the data, including descriptive statistics, visualizations (histograms, scatter plots, box plots), and identifying potential outliers or missing values.
-2.  *Data Preprocessing:*
-    * Handling missing values (if any).
-    * Feature scaling or normalization, if required by the chosen model.
-    * Splitting the data into training and testing sets to evaluate the model's performance on unseen data.
-3.  *Model Selection and Training:*
-    * Choosing appropriate statistical models or machine learning algorithms for regression, such as:
-        * Linear Regression
-        * Polynomial Regression
-        * Decision Trees
-        * Random Forests
-        * Gradient Boosting Regressors
-    * Training the selected model(s) using the training data.
-4.  *Model Evaluation:*
-    * Evaluating the performance of the trained model(s) on the testing data using appropriate metrics for regression, such as:
-        * Mean Squared Error (MSE)
-        * Root Mean Squared Error (RMSE)
-        * Mean Absolute Error (MAE)
-        * R-squared (Coefficient of Determination)
-5.  *Model Tuning (Optional):*
-    * Optimizing the model's hyperparameters using techniques like GridSearchCV or RandomizedSearchCV to improve its performance.
-6.  *Results and Conclusion:*
-    * Summarizing the findings, discussing the performance of the chosen model(s), and drawing conclusions based on the results.
+## Insights in Boston real estate - Statistical analysis:
+* Home prices v.s. various features.
+* Descriptive Statistics - Statistical Analysis - Tests.
+* Levene Test (Variances), T-test, ANOVA, Pearson Correlation, Regression analysis.
 
 ## Libraries Used
 
